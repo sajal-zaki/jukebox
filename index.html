@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	
+</head>
+<body>
+	
+<p>Please select a song from the list
+<select name = mylist id= "mylist" onChange="playAudio();">
+<option value="070. Kelly Clarkson - Piece By Piece">Volvo</option>
+  <option value="393503-what-do-you-mean--1440819602">Saab</option>
+  <option value="393516-wildest-dreams--1441042942">Opel</option>
+  <option value="give-your-heart-a-break-demi-lovato.mp3">Audi</option>
+</select>
+</p>
+<audio id="myaudio" controls="controls" preload="auto">
+HTML5 audio not supported
+</audio>
+<button id="play" onClick="playAudio();">Play/Pause</button>
+<button id="play" onClick="playAudio();">stop</button>
+</body>
+</html>
