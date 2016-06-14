@@ -1,18 +1,31 @@
-function playVideo(autoplay, loop) {
-   var theSelect = document.getElementById("jukeVids");
-   var theArgs;
-   if(autoplay == 1) {
-      theArgs = "&amp;autoplay=1";
-   }
-   if(loop == 1) {
-      theArgs += "&amp;loop=1";
-   }
- 
-   for(var i = 0; i < theSelect.length; i++) {
-      if(theSelect.options[i].selected) {
-         var so = new SWFObject(theSelect.options[i].value + theArgs, "mymovie", "425", "350", "8", "#fff");
-         so.write("jukePlayer");
-         break;
-      }
-   }
+var x = document.getElementById("one");
+var y = document.getElementById("two");
+var z = document.getElementById("three");
+var w = document.getElementById("four");
+
+String[] str = {x, y, z, w};
+int count = 0;
+function playAudio()
+ {
+     str[count].play();
+}
+
+function pauseAudio() {
+    str[count].pause();
+}
+function forwardAudio()
+{
+    if(count>=0 && count<arr.count-1)
+    {
+    count++;
+    str[count].play();
+    }
+}
+function backwardAudio()
+{
+    if(count>=0 && count<arr.count-1)
+    {
+    count--;
+    str[count].play();
+    }
 }

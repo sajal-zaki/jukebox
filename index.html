@@ -9,19 +9,36 @@
 	
 </head>
 <body>
-	
-<p>Please select a song from the list
-<select name = mylist id= "mylist" onChange="playAudio();">
-<option value="070. Kelly Clarkson - Piece By Piece">Volvo</option>
-  <option value="393503-what-do-you-mean--1440819602">Saab</option>
-  <option value="393516-wildest-dreams--1441042942">Opel</option>
-  <option value="give-your-heart-a-break-demi-lovato.mp3">Audi</option>
-</select>
-</p>
-<audio id="myaudio" controls="controls" preload="auto">
-HTML5 audio not supported
+	<audio id="one">
+		<source src="1.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+<audio id="two">
+  
+  <source src="2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
-<button id="play" onClick="playAudio();">Play/Pause</button>
-<button id="play" onClick="playAudio();">stop</button>
+<audio id="three">
+  
+  <source src="3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="four">
+  
+  <source src="4.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h1>Welcome to the Jukebox</h1>
+<p>Click the buttons to use your JukeBox</p>
+<div id = "img">
+
+<div id ="container">
+<img onclick="playAudio()" src ="images/play.PNG">
+<img onclick="pauseAudio()" src = "images/pause.PNG">
+<img onclick="backwardAudio()" src = "images/backward.PNG">
+<img onclick="forwardAudio()" src = "images/forward.PNG">
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
