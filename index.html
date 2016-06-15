@@ -1,43 +1,37 @@
-
 <!DOCTYPE html>
-<html lang="en"> 
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<audio id="one">
-		<source src="1.mp3" type="audio/mpeg">
-			Your browser does not support the audio element.
-		</audio>
-<audio id="two">
-  
-  <source src="2.mp3" type="audio/mpeg">
-  Your browser does not support the audio element..
-</audio>
-<audio id="three">
-  
-  <source src="3.mp3" type="audio/mpeg">
-  Your browser does not support the audio element..
-</audio>
-<audio id="four">
- <source src="4.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<h1>Welcome to the Jukebox</h1>
-<p>Click the buttons to use your JukeBox</p>
-<div id = "img">
+<body >
+	
+	<h1>Wecome to the JukeBox!</h1>
+	<h3>Choose your favourite song from the list and enjoy!</h3>
 
-<div id ="container">
-<img onclick="playAudio()" src ="images/play.PNG">
-<img onclick="pauseAudio()" src = "images/pause.PNG">
-<img onclick="backwardAudio()" src = "images/backward.PNG">
-<img onclick="forwardAudio()" src = "images/forward.PNG">
-</div>
-</div>
-<script src="script.js"></script>
+	<div id ="box">
+
+	<img id="backward" src = "images/backward.PNG">
+	<img id="play" src = "images/play.PNG">
+	<img id="stop" src = "images/stop.PNG">
+	<img id="pause" src = "images/pause.PNG">
+	<img id="forward" src = "images/forward.PNG">
+	</div>
+	<h1 id="audioname"></h1>
+	
+
+	<h1 id="trak">Select Songs from the Playlist: </h1>
+	<ul>
+		<li id="piece">Piece By Piece</li>
+		<li id="what">What Do You Mean</li>
+		<li id="wild">Wildest Dream</li>
+		<li id="break">Give Your Heart A Break</li>
+		<li id="two">22 Taylor Swift</li>
+		<li id="december">Back To December</li>
+	</ul>
+
+
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

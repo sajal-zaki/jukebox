@@ -1,25 +1,45 @@
-#img{
-	margin-left: 39%;
-	margin-top: 16%;
-	float: left;
-	padding: 0;
-}
-body{
-	background-color: grey;
-	}
-#container{
-	margin-top: -30%;
-	margin-left: -30%;
-    margin-right: 10%;
-    background-color: yellow;
-    padding: 20%;
-    background: url(http://thumb1.shutterstock.com/display_pic_with_logo/2698321/346245878/stock-photo--background-design-purple-frequency-diagram-of-graphic-audio-equalizer-for-digital-player-346245878.jpg);
-    background-size:80%;
-    width: 100%;
-}
-h1, p{
-	font-family: Georgia;
-	color: black;
 
-    text-align: center;
+#box{
+	margin-top: 5%;
+	margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    background: url(http://www.apple.com/music-memos/images/og_image.jpg?201602041430);
+    background-size:80%;
 }
+#piece:hover,#what:hover,#wild:hover,#break:hover,#two:hover,#december:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	
+}
+
+#piece,#what,#break, #two, #december,#wild,#audioname{
+	color: #999999;
+}
+
+h1, h3{
+	font-family: AR DESTINE;
+	color:  #999999;
+}
+ul{
+	 list-style-type:none;
+	 font-family: AR DESTINE;
+	 color: #999999;
+}
+
+
+body{
+	background-image: url(http://wallpapercave.com/wp/AJeLlCi.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+#trak{
+	color: #999999;
+}
+
+
