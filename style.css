@@ -6,6 +6,7 @@
     padding: 5%;
     background: url(http://www.apple.com/music-memos/images/og_image.jpg?201602041430);
     background-size:80%;
+
 }
 #piece:hover,#what:hover,#wild:hover,#break:hover,#two:hover,#december:hover{
 	text-decoration: underline;
@@ -15,6 +16,7 @@
 
 #piece,#what,#break, #two, #december,#wild,#audioname{
 	color: #999999;
+	
 }
 
 h1, h3{
